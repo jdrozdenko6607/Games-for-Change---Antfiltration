@@ -16,7 +16,7 @@ if (place_meeting(x + xVector, y, oWall))
 	{
 		// while I am moving towards a wall, if I get 4 pixels away, start moving at a slower pace (1 pixel at a time)
 		// ! means "not"
-		while(!place_meeting(x + xVector, y, oWall))
+		while(!place_meeting(x + xVector, y, oWall))     
 		{
 			// only move 1 pixel at a time until I hit a wall
 			x = x + xDirection;	
@@ -29,9 +29,32 @@ x = x + xVector;
 
 yDirection = down - up; 
 yVector = ySpeed * yDirection;
-
+if (place_meeting(x, y + yVector, oWall))
+	{
+		// while I am moving towards a wall, if I get 4 pixels away, start moving at a slower pace (1 pixel at a time)
+		// ! means "not"
+		while(!place_meeting(x, y + yVector, oWall))     
+		{
+			// only move 1 pixel at a time until I hit a wall
+			y = y + yDirection;	
+		}
+		// otherwise stop
+		yVector = 0;
+	}
+// otherwise move as normal
 
 y = y + yVector;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
