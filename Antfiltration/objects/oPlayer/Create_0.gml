@@ -12,6 +12,7 @@ ySpeed = 4;
 yDirection = 0; 
 yVector = ySpeed * yDirection;
 
+gravity = 0.1
 
 
 

@@ -43,7 +43,32 @@ if (place_meeting(x, y + yVector, oWall))
 	}
 // otherwise move as normal
 
-y = y + yVector;
+if (place_meeting(x, y, oLadder) or place_meeting(x, y, oLadder2))
+{
+	y = y + yVector;
+	
+}
+
+
+//if !place_meeting(x, y + 1, obj_Ground)
+//{
+    //gravity = 0.01;
+//}
+//else
+//{
+    //gravity = 0;
+//}
+
+
+//if !place_meeting(x + xDirection, y, oWall2)
+	//x + xDirection
+//else 
+
+
+
+
+
+
 
 
 

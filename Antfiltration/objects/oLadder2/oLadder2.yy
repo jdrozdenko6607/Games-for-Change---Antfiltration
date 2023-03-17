@@ -4,7 +4,7 @@
     "path": "sprites/sLadder/sLadder.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oLadder",
+  "name": "oLadder2",
   "tags": [],
   "resourceType": "GMObject",
 }
