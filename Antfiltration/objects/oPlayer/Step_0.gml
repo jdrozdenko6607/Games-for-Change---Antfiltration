@@ -27,7 +27,13 @@ if (place_meeting(x + xVector, y, oWall))
 // otherwise move as normal
 x = x + xVector;
 
-yDirection = down - up; 
+yDirection = 0
+
+if (place_meeting(x, y, oLadder) or place_meeting(x, y, oLadder2))
+{
+	yDirection = down - up; 
+}
+
 yVector = ySpeed * yDirection;
 if (place_meeting(x, y + yVector, oWall))
 	{
@@ -40,36 +46,23 @@ if (place_meeting(x, y + yVector, oWall))
 		}
 		// otherwise stop
 		yVector = 0;
+		falling_speed = 0;
 	}
-// otherwise move as normal
-
-if (place_meeting(x, y, oLadder) or place_meeting(x, y, oLadder2))
-{
-	y = y + yVector;
-	
+else {
+	if !(place_meeting(x, y, oLadder) or place_meeting(x, y, oLadder2))
+	{
+		falling_speed = falling_speed + 0.1
+		yVector = falling_speed
+	}
 }
 
+y = y + yVector;
 
-//if !place_meeting(x, y + 1, obj_Ground)
-//{
-    //gravity = 0.01;
-//}
-//else
-//{
-    //gravity = 0;
-//}
-
-
-//if !place_meeting(x + xDirection, y, oWall2)
-	//x + xDirection
-//else 
-
-
-
-
-
-
-
+	while(place_meeting(x, y, oWall))     
+{
+	y = y - 0.1;	
+	falling_speed = 0
+}
 
 
 
