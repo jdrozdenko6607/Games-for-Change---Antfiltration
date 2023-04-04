@@ -14,7 +14,7 @@ yVector = ySpeed * yDirection;
 
 
 
-falling_speed = 0
+falling_speed = 0;
 
-
+global.eggs = 0;
 

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEgg",
-    "path": "sprites/sEgg/sEgg.yy",
+    "name": "sAnt",
+    "path": "sprites/sAnt/sAnt.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEgg",
+  "name": "oAnt",
   "tags": [],
   "resourceType": "GMObject",
 }
