@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"oWall","order":5,"path":"objects/oWall/oWall.yy",},
+    {"name":"Sprite6","order":16,"path":"sprites/Sprite6/Sprite6.yy",},
+    {"name":"Object3","order":2,"path":"objects/Object3/Object3.yy",},
+    {"name":"oAnt","order":11,"path":"objects/oAnt/oAnt.yy",},
+    {"name":"sLadder","order":2,"path":"sprites/sLadder/sLadder.yy",},
+    {"name":"TileSet1","order":3,"path":"tilesets/TileSet1/TileSet1.yy",},
+    {"name":"Sprite3","order":15,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"sAnt","order":4,"path":"sprites/sAnt/sAnt.yy",},
+    {"name":"oWall2","order":6,"path":"objects/oWall2/oWall2.yy",},
+    {"name":"sEgg","order":3,"path":"sprites/sEgg/sEgg.yy",},
+    {"name":"oLadder2","order":8,"path":"objects/oLadder2/oLadder2.yy",},
+    {"name":"Object4","order":4,"path":"objects/Object4/Object4.yy",},
+    {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
+    {"name":"oEgg","order":9,"path":"objects/oEgg/oEgg.yy",},
+    {"name":"oLadder","order":7,"path":"objects/oLadder/oLadder.yy",},
+    {"name":"Sprite2","order":13,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"oHUD","order":10,"path":"objects/oHUD/oHUD.yy",},
+  ],
+}
