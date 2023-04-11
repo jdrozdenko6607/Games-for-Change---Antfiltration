@@ -15,6 +15,7 @@
     {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},"order":4,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oEgg","path":"objects/oEgg/oEgg.yy",},"order":9,},
+    {"id":{"name":"test","path":"objects/test/test.yy",},"order":12,},
     {"id":{"name":"oLadder","path":"objects/oLadder/oLadder.yy",},"order":7,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":13,},
     {"id":{"name":"oHUD","path":"objects/oHUD/oHUD.yy",},"order":10,},
