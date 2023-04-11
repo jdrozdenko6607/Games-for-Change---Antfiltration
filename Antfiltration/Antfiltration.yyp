@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":5,},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":16,},
+    {"id":{"name":"oCrumb","path":"objects/oCrumb/oCrumb.yy",},"order":12,},
     {"id":{"name":"Object3","path":"objects/Object3/Object3.yy",},"order":2,},
     {"id":{"name":"oAnt","path":"objects/oAnt/oAnt.yy",},"order":11,},
     {"id":{"name":"sLadder","path":"sprites/sLadder/sLadder.yy",},"order":2,},
@@ -15,7 +16,6 @@
     {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},"order":4,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oEgg","path":"objects/oEgg/oEgg.yy",},"order":9,},
-    {"id":{"name":"test","path":"objects/test/test.yy",},"order":12,},
     {"id":{"name":"oLadder","path":"objects/oLadder/oLadder.yy",},"order":7,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":13,},
     {"id":{"name":"oHUD","path":"objects/oHUD/oHUD.yy",},"order":10,},
