@@ -64,7 +64,21 @@ y = y + yVector;
 	falling_speed = 0
 }
 
-
+//if ((x - oCrumb.x) > 100) or ((y - oCrumb.y) > 100) or ((oCrumb.x - x) > 100) or ((oCrumb.y - y) > 100)
+	{
+		//instance_create_depth(x, y, 300, oCrumb)
+	}
+	
+if (timer = 0)
+	{
+		instance_create_depth(x, y, 300, oCrumb)
+		timer = 2
+	}
+else
+	{
+		timer -=1/room_speed
+	}
+	
 
 
 

@@ -12,9 +12,10 @@ ySpeed = 4;
 yDirection = 0; 
 yVector = ySpeed * yDirection;
 
-
+timer = 2
 
 falling_speed = 0;
 
 global.eggs = 0;
 
+//instance_create_depth(x, y, 300, oCrumb)
