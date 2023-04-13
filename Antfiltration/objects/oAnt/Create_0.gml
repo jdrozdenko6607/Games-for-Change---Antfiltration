@@ -3,10 +3,7 @@
 
 target_x = oPlayer.x;
 target_y = oPlayer.y;
-
-
-
 path = path_add()
 
-//speed = 0.5;
+
 

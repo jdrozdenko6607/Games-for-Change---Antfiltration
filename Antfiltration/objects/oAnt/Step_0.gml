@@ -11,6 +11,8 @@ mp_linear_path(path, oPlayer.x, oPlayer.y, 0.5, 1);
 mp_linear_path_object(path, oPlayer.x, oPlayer.y, 0.5, oWall2);
 path_start(path, 0.5, path_action_stop, true);
 
-
-
-
+//if point_distance(x, y, oCrumb.x, oCrumb.y) > 5
+	{
+		//move_towards_point(oCrumb.x, oCrumb.y, 5);	
+	}
+//else speed = 0;
