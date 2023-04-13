@@ -18,4 +18,4 @@ falling_speed = 0;
 
 global.eggs = 0;
 
-//instance_create_depth(x, y, 300, oCrumb)
+instance_create_depth(x, y, 300, oCrumb)
